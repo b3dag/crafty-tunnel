@@ -132,7 +132,7 @@ That creates a CNAME record in Cloudflare DNS automatically.
 Pull this repo somewhere temporary (or download `config.yml.example` directly) and put the config in cloudflared's default location:
 
 ```bash
-git clone https://github.com/b3dag/craftytunnel /tmp/craftytunnel
+git clone https://github.com/b3dag/crafty-tunnel /tmp/craftytunnel
 sudo cp /tmp/craftytunnel/config.yml.example /root/.cloudflared/config.yml
 sudo nano /root/.cloudflared/config.yml
 ```
