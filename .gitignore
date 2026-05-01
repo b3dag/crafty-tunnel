@@ -1,0 +1,10 @@
+# Editor / OS
+*.swp
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Anything that looks like real Cloudflare credentials, just in case
+*.json
+.cloudflared/
